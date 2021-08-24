@@ -5,21 +5,11 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <StartupObject>Systray.Program</StartupObject>
+    <Version>0.1.0</Version>
+    <Authors>Fenhl</Authors>
+    <Company />
+    <PackageProjectUrl>https://github.com/fenhl/systray</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/fenhl/systray</RepositoryUrl>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Update="Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
 
 </Project>
