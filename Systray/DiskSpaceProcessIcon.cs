@@ -55,7 +55,7 @@ namespace Systray
 
         private void WinDirStat()
         {
-            Process.Start("C:\\Program Files (x86)\\WinDirStat\\windirstat.exe");
+            Process.Start("C:\\Users\\fenhl\\scoop\\shims\\windirstat.exe");
         }
 
         private void SetIcon() //FROM modified https://stackoverflow.com/a/59722925/667338
